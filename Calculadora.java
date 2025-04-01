@@ -11,7 +11,13 @@ public class Calculadora {
 	public Calculadora(){
         
     }
-    
+    // Método para la operación módulo
+    public int modulo(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("No se puede dividir por cero");
+        }
+        return a % b;  // Devuelve el resto de la división
+    }
     public int suma(int num1,int num2){
         return num1+num2;
     }
