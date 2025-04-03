@@ -36,7 +36,9 @@ public class Calculadora {
         }
         return true;
     }
-
+    public static int (int divisor, int dividendo){
+        divisor%dividendo;
+    }
 	private int valor1;
 	private int valor2;
 }
