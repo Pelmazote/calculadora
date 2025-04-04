@@ -39,4 +39,11 @@ public class Calculadora {
 
 	private int valor1;
 	private int valor2;
+
+
+
+    public int modulo(int num1,int num2){
+        return num1 % num2;
+    }
+
 }
