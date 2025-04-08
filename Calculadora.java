@@ -28,7 +28,13 @@ public class Calculadora {
         if (num2==0) throw new ArithmeticException("NO PUEDES DIVIDIR POR CERO, MELON");
         return num1/num2;
     }
-    
+    public int modulo() {
+        if (this.numero2 == 0) {
+            System.out.println("Error: No se puede calcular el módulo con divisor cero.");
+            return 0;
+        }
+        return this.numero1 % this.numero2;
+    }
     public boolean esPrimo(int n) {
     	if (n < 2) return false;
         for (int i = 2; i <= Math.sqrt(n); i++) {
