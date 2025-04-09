@@ -28,6 +28,10 @@ public class Calculadora {
         if (num2==0) throw new ArithmeticException("NO PUEDES DIVIDIR POR CERO, MELON");
         return num1/num2;
     }
+    public int modulo(int num1,int num2){
+        if (num2==0) throw new ArithmeticException("NO PUEDES DIVIDIR POR CERO, MELON");
+        return num1%num2;
+    }
     
     public boolean esPrimo(int n) {
     	if (n < 2) return false;
